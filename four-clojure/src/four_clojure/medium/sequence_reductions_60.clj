@@ -1,6 +1,9 @@
 (ns four-clojure.medium.sequence-reductions-60
   (:require [clojure.test :refer :all]))
 
+;; #60
+;; Sequence Reductions
+
 ;; Write a function which behaves like reduce, but returns each intermediate value of the reduction.
 ;; Your function must accept either two or three arguments, and the return sequence must be lazy.
 

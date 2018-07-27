@@ -1,6 +1,9 @@
 (ns four-clojure.medium.merge-with-a-function-69
   (:require [clojure.test :refer :all]))
 
+;; #69
+;; Merge with a Function
+
 ;; Write a function which takes a function f and a variable number of maps.
 ;; Your function should return a map that consists of the rest of the maps conj-ed onto the first. If a key occurs in more than one map,
 ;; the mapping(s) from the latter (left-to-right) should be combined with the mapping in the result by calling (f val-in-result val-in-latter)
